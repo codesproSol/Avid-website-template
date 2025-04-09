@@ -11258,7 +11258,7 @@ function debouncer(func, timeout) {
 
   var determineActive = (function () {
     var location = window.location.href.split("#")[0],
-      cur_url = location.split("/").pop() || "index.html";
+      cur_url = location.split("/").pop() || "#";
 
     nav.find("li").each(function () {
       var link = $(this).find("a").attr("href");
@@ -11320,7 +11320,7 @@ function debouncer(func, timeout) {
 
   var determineActive = (function () {
     var location = window.location.href.split("#")[0],
-      cur_url = location.split("/").pop() || "index.html";
+      cur_url = location.split("/").pop() || "#";
 
     nav.find("li").each(function () {
       var link = $(this).find("a").attr("href");
