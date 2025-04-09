@@ -10,6 +10,10 @@ Welcome to Avid Bar and Lounge! This application is designed to provide an exclu
 - Rewards and benefits
 - Secure payment processing
 
+  ## Imgs
+  ![image](https://github.com/user-attachments/assets/3f8d1822-e61a-420e-a523-69484f2e0e5c)
+
+
 ## Installation
 
 To install and run this application, follow these steps:
