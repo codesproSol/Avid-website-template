@@ -11593,7 +11593,7 @@ function debouncer(func, timeout) {
     firstDay: 0,
   };
 
-  var startDate = new Date(2020, 22, 01);
+  var startDate = new Date;
   var dp = $(".j_datepicker-1")
     .datepicker({
       startDate: startDate,
